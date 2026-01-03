@@ -12,14 +12,7 @@ A Raycast extension to quickly search and open your recent Cursor folders.
 
 ## Installation
 
-Install from the [Raycast Store](https://raycast.com/store) install manually:
-
-```bash
-git clone https://github.com/mohamedalosaili/cursor-recent-folders.git
-cd cursor-recent-folders
-npm install
-npm run dev
-```
+Install from the [Raycast Store](https://raycast.com/store).
 
 ## Usage
 
@@ -32,7 +25,6 @@ npm run dev
 
 - `Enter` - Open folder in Cursor
 - `⌘ + Enter` - Show in Finder
-- `⌘ + C` - Copy folder path
 - `⌘ + K` → Configure Storage Path - Change database location
 
 ## Configuration
@@ -43,33 +35,12 @@ The extension automatically detects Cursor's database location:
 - **Windows**: `%APPDATA%\Cursor\User\globalStorage\state.vscdb`
 - **Linux**: `~/.config/Cursor/User/globalStorage/state.vscdb`
 
-If your Cursor installation is in a custom location, you can configure the path via `⌘ + K` → Configure Storage Path.
+If your Cursor installation is in a custom location, you can configure the path via the action panel.
 
 ## Requirements
 
 - [Cursor IDE](https://cursor.sh/) installed
-- Raycast (latest version recommended)
-
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Run in development mode
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-MIT
+- Raycast
 
 ## Author
 

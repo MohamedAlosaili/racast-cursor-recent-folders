@@ -355,7 +355,7 @@ async function getRecentFolders(): Promise<Folder[]> {
     // Use Raycast's executeSQL instead of better-sqlite3
     const result = await executeSQL<{ value: string }>(
       storagePath,
-      "SELECT value FROM ItemTable WHERE key = 'history.recentlyOpenedPathsList'"
+      "SELECT value FROM ItemTable WHERE key = 'history.recentlyOpenedPathsList'",
     );
 
     if (!result || result.length === 0 || !result[0].value) {

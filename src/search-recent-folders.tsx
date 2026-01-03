@@ -394,7 +394,7 @@ async function getRecentFolders(): Promise<Folder[]> {
       // Decode URI components properly
       try {
         folderPath = decodeURIComponent(folderPath);
-      } catch (e) {
+      } catch {
         // If decoding fails, use the path as-is
       }
 

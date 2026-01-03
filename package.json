@@ -2,13 +2,9 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "cursor-recent-folders",
   "title": "Cursor Recent Folders",
-  "description": "Quickly search and open recent Cursor folders",
+  "description": "Quickly search and open your recent Cursor folders",
   "icon": "icon.png",
   "author": "mohamedalosaili",
-  "owner": "mohamedalosaili",
-  "contributors": [
-    "mohamedalosaili"
-  ],
   "categories": [
     "Developer Tools",
     "Productivity"

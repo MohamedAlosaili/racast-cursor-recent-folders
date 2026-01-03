@@ -1,0 +1,45 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "cursor-recent-folders",
+  "title": "Cursor Recent Folders",
+  "description": "Quickly search and open recent Cursor folders",
+  "icon": "icon.png",
+  "author": "mohamedalosaili",
+  "owner": "mohamedalosaili",
+  "contributors": [
+    "mohamedalosaili"
+  ],
+  "categories": [
+    "Developer Tools",
+    "Productivity"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "search-recent-folders",
+      "title": "Search Recent Folders",
+      "subtitle": "Cursor",
+      "description": "Search and open recent Cursor folders",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.1",
+    "@raycast/utils": "^2.2.2"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^2.1.1",
+    "@types/node": "25.0.3",
+    "@types/react": "19.2.7",
+    "eslint": "^9.39.2",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
